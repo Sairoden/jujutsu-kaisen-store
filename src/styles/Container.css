@@ -1,0 +1,25 @@
+.container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+header {
+  background-color: rgba(235, 235, 245, 0.03);
+  padding: 20px 0;
+}
+
+nav,
+.nav-right {
+  display: flex;
+}
+
+nav {
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+nav a {
+  margin: 0 20px;
+  text-decoration: none;
+}
